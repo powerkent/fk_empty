@@ -44,6 +44,6 @@ class Response
     {
         $method = $this->method;
         $controller = new $this->controller;
-        exit($controller->$method($this->vars));
+        exit(call_user_func_array([$controller, $method], $this->vars));
     }
 }
