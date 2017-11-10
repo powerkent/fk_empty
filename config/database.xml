@@ -1,0 +1,1 @@
+<database host="localhost" user="root" password="root" port="3306" bdd="db_name" />

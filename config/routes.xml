@@ -1,0 +1,5 @@
+<routes>
+    <route url="/" controller="Homepage" method="index" />
+    <route url="/test" controller="Homepage" method="index" />
+    <route url="/news/(\d+)" controller="News" method="index" vars="page"/>
+</routes>
